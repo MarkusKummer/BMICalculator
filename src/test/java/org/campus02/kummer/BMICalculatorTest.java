@@ -1,4 +1,5 @@
-import org.campus02.kummer.BMICalculator;
+package org.campus02.kummer;
+
 import org.junit.jupiter.api.*;
 
 class BMICalculatorTest {
