@@ -1,3 +1,5 @@
+package org.campus02.kummer;
+
 import static java.lang.Math.round;
 
 public class BMICalculator {
