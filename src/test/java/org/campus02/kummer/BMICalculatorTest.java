@@ -37,5 +37,12 @@ class BMICalculatorTest {
         Assertions.assertEquals(37.04, bmiCalculatorMale.calculateBMI());
     }
 
+    @Test
+    @DisplayName("calculateBMICategory() test")
+    void testCalculateBMICategory(){
+        Assertions.assertEquals(1, bmiCalculatorFemale.calculateBMICategory());
+        Assertions.assertEquals(2, bmiCalculatorMale.calculateBMICategory());
+    }
+
 
 }
