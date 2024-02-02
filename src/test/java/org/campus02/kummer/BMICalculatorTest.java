@@ -44,5 +44,12 @@ class BMICalculatorTest {
         Assertions.assertEquals(2, bmiCalculatorMale.calculateBMICategory());
     }
 
+    @Test
+    @DisplayName("getBMICategoryName() test")
+    void testGetBMICategoryName() {
+        Assertions.assertEquals("Übergewicht", bmiCalculatorFemale.getBMICategoryName());
+        Assertions.assertEquals("Sehr starkes Übergewicht", bmiCalculatorMale.getBMICategoryName());
+    }
+
 
 }
